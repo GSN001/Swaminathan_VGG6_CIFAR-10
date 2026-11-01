@@ -31,7 +31,7 @@ https://github.com/GSN001/Swaminathan_VGG6_CIFAR-10.git
 
 Experiments were run on a CUDA GPU (Google Colab) with Python 3.13.
 
-| Package 
+| Package |
 |---|---|
 | Python | [ 3.13.+] |
 | torch | 
@@ -101,7 +101,7 @@ The default seed is **42** (`--seed 42`). `set_seed()` in `train.py` seeds Pytho
 
 ## 7. How to reproduce
 
-### 7.1 Best model (Question 4)
+### 7.1 Best model
 
 ```bash
 python train.py --activation relu --optimizer nesterov --lr 0.05 --batch_size 128 --epochs 20 --seed 42
@@ -123,7 +123,7 @@ python evaluate.py --checkpoint checkpoints/relu_nesterov_lr0.05_bs128_ep20.pt -
 
 This prints the configuration the checkpoint was trained with, the epoch it was saved at, and validation and test top-1 accuracy.
 
-### 7.3 All sweeps (Questions 2 and 3)
+### 7.3 All sweeps
 
 Create each sweep, then start an agent with the sweep ID that W&B prints:
 
@@ -144,7 +144,7 @@ This runs for `sweep_optimizer.yaml`, `sweep_lr.yaml`, `sweep_batch.yaml` and `s
 The W&B parallel-coordinates, validation-accuracy-vs-step and loss/accuracy plots are generated from these sweeps in the W&B dashboard.
 
 
-## 11. Author
+## 8. Author
 
 G Swaminathan, CS25M546, IIT Madras
 GitHub: (https://github.com/GSN001/Swaminathan_VGG6_CIFAR-10.git)
