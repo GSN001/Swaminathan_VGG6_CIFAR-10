@@ -32,10 +32,10 @@ https://github.com/GSN001/Swaminathan_VGG6_CIFAR-10.git
 Experiments were run on a CUDA GPU (Google Colab) with Python 3.13.
 
 | Package |
-|---|---|
-| Python | [ 3.13.+] |
+|---|
+| Python |
 | torch | 
-| torchvision | 
+| torchvision| 
 | numpy | 
 | wandb | 
 
