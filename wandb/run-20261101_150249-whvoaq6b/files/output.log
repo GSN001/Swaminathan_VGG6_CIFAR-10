@@ -1,0 +1,11 @@
+Epoch 1/10 | train loss 1.5894 acc 42.16 | val loss 1.7742 acc 43.90 | lr 0.00100 | 26.9s
+Epoch 2/10 | train loss 1.2961 acc 53.72 | val loss 1.3686 acc 53.92 | lr 0.00098 | 24.5s
+Epoch 3/10 | train loss 1.1817 acc 58.31 | val loss 1.6914 acc 49.54 | lr 0.00090 | 26.8s
+Epoch 4/10 | train loss 1.0855 acc 61.82 | val loss 1.3625 acc 56.36 | lr 0.00079 | 24.9s
+Epoch 5/10 | train loss 1.0085 acc 64.65 | val loss 1.7702 acc 47.10 | lr 0.00065 | 26.3s
+Epoch 6/10 | train loss 0.9476 acc 66.85 | val loss 1.2877 acc 58.24 | lr 0.00050 | 26.8s
+Epoch 7/10 | train loss 0.8986 acc 68.70 | val loss 0.9025 acc 69.70 | lr 0.00035 | 24.1s
+Epoch 8/10 | train loss 0.8535 acc 70.71 | val loss 0.8296 acc 71.04 | lr 0.00021 | 26.3s
+Epoch 9/10 | train loss 0.8178 acc 71.87 | val loss 0.7072 acc 75.34 | lr 0.00010 | 24.6s
+Epoch 10/10 | train loss 0.7970 acc 72.42 | val loss 0.6832 acc 76.64 | lr 0.00002 | 25.7s
+Best val acc 76.64% (epoch 10) | test acc 75.44% | saved checkpoints/relu_rmsprop_lr0.001_bs128_ep10.pt

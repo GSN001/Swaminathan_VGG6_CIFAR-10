@@ -1,0 +1,43 @@
+{
+  "os":  "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.16",
+  "startedAt":  "2026-11-01T15:39:25.143663Z",
+  "args":  [
+    "--activation=relu",
+    "--batch_size=128",
+    "--epochs=10",
+    "--lr=0.1",
+    "--optimizer=nesterov"
+  ],
+  "program":  "/content/drive/MyDrive/swaminathan_vgg6_CIFAR-10/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "cs25m546@smail.iitm.ac.in",
+  "root":  "/content/drive/MyDrive/swaminathan_vgg6_CIFAR-10",
+  "host":  "59d39cbbbf99",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "365830144"
+    }
+  },
+  "memory":  {
+    "total":  "13605818368"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-c1ba82e4-9019-e5b0-41f9-8465c2a39787"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "mj7ez1967ja25l118dpc2146c8guc2pq"
+}

@@ -1,0 +1,11 @@
+Epoch 1/10 | train loss 1.5593 acc 43.19 | val loss 1.4692 acc 49.84 | lr 0.00100 | 26.8s
+Epoch 2/10 | train loss 1.2849 acc 54.38 | val loss 1.2884 acc 55.94 | lr 0.00098 | 26.8s
+Epoch 3/10 | train loss 1.1669 acc 58.99 | val loss 1.3668 acc 55.54 | lr 0.00090 | 24.6s
+Epoch 4/10 | train loss 1.0694 acc 62.35 | val loss 1.2338 acc 57.52 | lr 0.00079 | 26.5s
+Epoch 5/10 | train loss 1.0037 acc 64.64 | val loss 1.2744 acc 62.80 | lr 0.00065 | 25.3s
+Epoch 6/10 | train loss 0.9373 acc 67.30 | val loss 1.0035 acc 66.20 | lr 0.00050 | 25.7s
+Epoch 7/10 | train loss 0.8924 acc 68.90 | val loss 0.9546 acc 68.08 | lr 0.00035 | 26.5s
+Epoch 8/10 | train loss 0.8479 acc 70.65 | val loss 0.7745 acc 73.34 | lr 0.00021 | 24.1s
+Epoch 9/10 | train loss 0.8092 acc 72.16 | val loss 0.7197 acc 75.22 | lr 0.00010 | 26.8s
+Epoch 10/10 | train loss 0.7853 acc 73.06 | val loss 0.6774 acc 76.98 | lr 0.00002 | 25.4s
+Best val acc 76.98% (epoch 10) | test acc 75.69% | saved checkpoints/relu_adam_lr0.001_bs128_ep10.pt

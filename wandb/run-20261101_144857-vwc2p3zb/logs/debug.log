@@ -1,0 +1,25 @@
+2026-11-01 14:48:57,956 INFO    MainThread:11777 [wandb_setup.py:_flush():81] Current SDK version is 0.28.1
+2026-11-01 14:48:57,957 INFO    MainThread:11777 [wandb_setup.py:_flush():81] Configure stats pid to 11777
+2026-11-01 14:48:57,957 INFO    MainThread:11777 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-11-01 14:48:57,958 INFO    MainThread:11777 [wandb_init.py:setup_run_log_directory():729] Logging user logs to /content/drive/MyDrive/swaminathan_vgg6_CIFAR-10/wandb/run-20261101_144857-vwc2p3zb/logs/debug.log
+2026-11-01 14:48:57,958 INFO    MainThread:11777 [wandb_init.py:setup_run_log_directory():730] Logging internal logs to /content/drive/MyDrive/swaminathan_vgg6_CIFAR-10/wandb/run-20261101_144857-vwc2p3zb/logs/debug-internal.log
+2026-11-01 14:48:57,959 INFO    MainThread:11777 [wandb_init.py:init():772] calling init triggers
+2026-11-01 14:48:57,959 INFO    MainThread:11777 [wandb_init.py:init():777] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 128, 'epochs': 10, 'lr': -1, 'optimizer': 'nesterov'}
+config: {'activation': 'relu', 'optimizer': 'nesterov', 'lr': 0.05, 'batch_size': 128, 'epochs': 10, 'momentum': 0.9, 'weight_decay': 0.0005, 'seed': 42, 'num_workers': 2, 'data_dir': './data', 'save_path': '', 'project': 'swaminathan_vgg6_CIFAR-10', 'wandb_mode': 'online', '_wandb': {}}
+2026-11-01 14:48:57,959 INFO    MainThread:11777 [wandb_init.py:init():820] starting backend
+2026-11-01 14:48:57,959 INFO    MainThread:11777 [wandb_init.py:init():835] sending inform_init request
+2026-11-01 14:48:58,087 INFO    MainThread:11777 [wandb_init.py:init():840] backend started and connected
+2026-11-01 14:48:58,088 INFO    MainThread:11777 [wandb_run.py:_config_callback():1346] config_cb None None {'activation': 'relu', 'batch_size': 128, 'epochs': 10, 'lr': -1, 'optimizer': 'nesterov'}
+2026-11-01 14:48:58,089 INFO    MainThread:11777 [wandb_init.py:init():910] updated telemetry
+2026-11-01 14:48:58,095 INFO    MainThread:11777 [wandb_init.py:init():933] communicating run to backend with 90.0 second timeout
+2026-11-01 14:48:58,643 INFO    MainThread:11777 [wandb_init.py:init():978] starting run threads in backend
+2026-11-01 14:48:59,288 INFO    MainThread:11777 [wandb_run.py:_console_start():2621] atexit reg
+2026-11-01 14:48:59,289 INFO    MainThread:11777 [wandb_run.py:_redirect():2471] redirect: wrap_raw
+2026-11-01 14:48:59,289 INFO    MainThread:11777 [wandb_run.py:_redirect():2540] Wrapping output streams.
+2026-11-01 14:48:59,293 INFO    MainThread:11777 [wandb_run.py:_redirect():2563] Redirects installed.
+2026-11-01 14:48:59,297 INFO    MainThread:11777 [wandb_init.py:init():1016] run started, returning control to user process
+2026-11-01 14:53:29,062 INFO    MainThread:11777 [wandb_run.py:_finish():2383] finishing run swaminathan47-indian-institute-of-madras/swaminathan_vgg6_CIFAR-10/vwc2p3zb
+2026-11-01 14:53:29,064 INFO    MainThread:11777 [wandb_run.py:_atexit_cleanup():2588] got exitcode: 0
+2026-11-01 14:53:29,065 INFO    MainThread:11777 [wandb_run.py:_restore():2570] restore
+2026-11-01 14:53:29,065 INFO    MainThread:11777 [wandb_run.py:_restore():2576] restore done
+2026-11-01 14:53:29,831 INFO    MainThread:11777 [wandb_run.py:_footer_sync_info():3993] logging synced files

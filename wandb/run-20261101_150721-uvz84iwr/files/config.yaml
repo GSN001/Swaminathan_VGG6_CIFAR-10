@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            b3qau0ptjyo3gvltcr3o86byjrnjw9no:
+                args:
+                    - --activation=relu
+                    - --batch_size=128
+                    - --epochs=10
+                    - --lr=-1
+                    - --optimizer=nadam
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "354746368"
+                email: cs25m546@smail.iitm.ac.in
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-c1ba82e4-9019-e5b0-41f9-8465c2a39787
+                host: 59d39cbbbf99
+                memory:
+                    total: "13605818368"
+                os: Linux-6.6.159+-x86_64-with-glibc2.39
+                program: /content/drive/MyDrive/swaminathan_vgg6_CIFAR-10/train.py
+                python: CPython 3.13.16
+                root: /content/drive/MyDrive/swaminathan_vgg6_CIFAR-10
+                startedAt: "2026-11-01T15:07:21.830553Z"
+                writerId: b3qau0ptjyo3gvltcr3o86byjrnjw9no
+        m: []
+        python_version: 3.13.16
+        t:
+            "1":
+                - 1
+                - 41
+                - 100
+            "2":
+                - 1
+                - 41
+                - 100
+            "3":
+                - 2
+                - 13
+                - 14
+                - 16
+                - 62
+            "4": 3.13.16
+            "5": 0.28.1
+            "12": 0.28.1
+            "13": linux-x86_64
+activation:
+    value: relu
+batch_size:
+    value: 128
+data_dir:
+    value: ./data
+epochs:
+    value: 10
+lr:
+    value: -1
+momentum:
+    value: 0.9
+num_workers:
+    value: 2
+optimizer:
+    value: nadam
+project:
+    value: swaminathan_vgg6_CIFAR-10
+save_path:
+    value: ""
+seed:
+    value: 42
+wandb_mode:
+    value: online
+weight_decay:
+    value: 0.0005

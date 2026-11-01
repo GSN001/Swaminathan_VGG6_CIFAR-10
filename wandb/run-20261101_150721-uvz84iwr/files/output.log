@@ -1,0 +1,11 @@
+Epoch 1/10 | train loss 1.5346 acc 44.13 | val loss 1.5697 acc 48.32 | lr 0.00100 | 27.2s
+Epoch 2/10 | train loss 1.2493 acc 55.56 | val loss 1.3322 acc 56.06 | lr 0.00098 | 24.6s
+Epoch 3/10 | train loss 1.1220 acc 60.61 | val loss 1.3708 acc 56.32 | lr 0.00090 | 27.2s
+Epoch 4/10 | train loss 1.0304 acc 64.25 | val loss 1.6523 acc 51.94 | lr 0.00079 | 25.7s
+Epoch 5/10 | train loss 0.9615 acc 66.27 | val loss 1.1376 acc 61.58 | lr 0.00065 | 25.7s
+Epoch 6/10 | train loss 0.9034 acc 68.65 | val loss 1.1160 acc 62.92 | lr 0.00050 | 26.5s
+Epoch 7/10 | train loss 0.8588 acc 70.32 | val loss 0.8083 acc 73.20 | lr 0.00035 | 24.5s
+Epoch 8/10 | train loss 0.8183 acc 71.79 | val loss 0.7430 acc 74.86 | lr 0.00021 | 26.0s
+Epoch 9/10 | train loss 0.7824 acc 73.16 | val loss 0.6918 acc 76.06 | lr 0.00010 | 25.1s
+Epoch 10/10 | train loss 0.7596 acc 73.76 | val loss 0.6567 acc 77.66 | lr 0.00002 | 25.4s
+Best val acc 77.66% (epoch 10) | test acc 76.26% | saved checkpoints/relu_nadam_lr0.001_bs128_ep10.pt

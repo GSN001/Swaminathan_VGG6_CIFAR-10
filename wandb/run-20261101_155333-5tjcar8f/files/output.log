@@ -1,0 +1,6 @@
+Epoch 1/5 | train loss 1.5765 acc 41.97 | val loss 1.3548 acc 53.16 | lr 0.05000 | 25.8s
+Epoch 2/5 | train loss 1.2801 acc 54.30 | val loss 1.1879 acc 58.56 | lr 0.04523 | 25.3s
+Epoch 3/5 | train loss 1.1426 acc 59.69 | val loss 1.4084 acc 56.14 | lr 0.03273 | 25.6s
+Epoch 4/5 | train loss 1.0318 acc 63.61 | val loss 1.1919 acc 59.68 | lr 0.01727 | 24.1s
+Epoch 5/5 | train loss 0.9524 acc 66.61 | val loss 0.8416 acc 71.34 | lr 0.00477 | 25.8s
+Best val acc 71.34% (epoch 5) | test acc 69.89% | saved checkpoints/relu_nesterov_lr0.05_bs128_ep5.pt

@@ -1,0 +1,11 @@
+Epoch 1/10 | train loss 1.8607 acc 29.23 | val loss 1.7693 acc 36.02 | lr 0.05000 | 27.3s
+Epoch 2/10 | train loss 1.6293 acc 39.10 | val loss 2.1560 acc 27.92 | lr 0.04878 | 24.7s
+Epoch 3/10 | train loss 1.5396 acc 43.39 | val loss 2.0987 acc 32.36 | lr 0.04523 | 27.0s
+Epoch 4/10 | train loss 1.4845 acc 45.38 | val loss 2.1384 acc 39.02 | lr 0.03969 | 25.8s
+Epoch 5/10 | train loss 1.4349 acc 47.87 | val loss 3.2842 acc 28.24 | lr 0.03273 | 25.6s
+Epoch 6/10 | train loss 1.3969 acc 49.65 | val loss 3.3234 acc 30.24 | lr 0.02500 | 26.1s
+Epoch 7/10 | train loss 1.3637 acc 50.60 | val loss 2.3327 acc 31.32 | lr 0.01727 | 23.7s
+Epoch 8/10 | train loss 1.3310 acc 52.44 | val loss 3.0513 acc 25.24 | lr 0.01031 | 25.8s
+Epoch 9/10 | train loss 1.3011 acc 53.66 | val loss 1.9226 acc 40.54 | lr 0.00477 | 23.7s
+Epoch 10/10 | train loss 1.2805 acc 54.47 | val loss 1.2042 acc 56.24 | lr 0.00122 | 26.0s
+Best val acc 56.24% (epoch 10) | test acc 55.38% | saved checkpoints/sigmoid_nesterov_lr0.05_bs128_ep10.pt

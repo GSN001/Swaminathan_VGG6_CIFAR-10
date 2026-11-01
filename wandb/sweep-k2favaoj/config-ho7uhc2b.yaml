@@ -1,0 +1,12 @@
+wandb_version: 1
+
+activation:
+  value: silu
+batch_size:
+  value: 128
+epochs:
+  value: 10
+lr:
+  value: 0.05
+optimizer:
+  value: nesterov

@@ -1,0 +1,11 @@
+Epoch 1/10 | train loss 1.6157 acc 41.26 | val loss 1.4156 acc 51.02 | lr 0.05000 | 26.6s
+Epoch 2/10 | train loss 1.3195 acc 52.74 | val loss 1.2512 acc 56.20 | lr 0.04878 | 24.7s
+Epoch 3/10 | train loss 1.1908 acc 57.66 | val loss 1.2841 acc 56.82 | lr 0.04523 | 26.1s
+Epoch 4/10 | train loss 1.0989 acc 61.22 | val loss 1.2734 acc 56.20 | lr 0.03969 | 24.6s
+Epoch 5/10 | train loss 1.0269 acc 63.84 | val loss 1.0717 acc 64.20 | lr 0.03273 | 26.2s
+Epoch 6/10 | train loss 0.9674 acc 65.85 | val loss 0.9518 acc 67.00 | lr 0.02500 | 26.2s
+Epoch 7/10 | train loss 0.9199 acc 67.74 | val loss 1.0650 acc 66.40 | lr 0.01727 | 25.4s
+Epoch 8/10 | train loss 0.8793 acc 69.12 | val loss 0.8433 acc 71.24 | lr 0.01031 | 26.8s
+Epoch 9/10 | train loss 0.8466 acc 70.56 | val loss 0.7728 acc 73.58 | lr 0.00477 | 24.9s
+Epoch 10/10 | train loss 0.8240 acc 71.59 | val loss 0.7182 acc 75.60 | lr 0.00122 | 26.5s
+Best val acc 75.60% (epoch 10) | test acc 74.25% | saved checkpoints/relu_nesterov_lr0.05_bs256_ep10.pt
